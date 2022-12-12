@@ -1,0 +1,48 @@
+/* футер */
+.footer {
+    
+    padding-top: 60px; 
+    padding-bottom: 60px; 
+        background-color:#2F303A;
+}
+.logo-footer{
+    margin-bottom: 20px;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.street{
+    margin-top: 20px;
+margin-bottom: 9px;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.address .link:hover,
+.address .link:focus{
+    color: $accent-color; 
+}
+
+ .mail-footer .link{ 
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+.tel-footer .link{ 
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6); 
+}
+.footer-conteiner {
+    display: flex;
+    
+}

@@ -1,0 +1,47 @@
+
+/* підпишіться на розсилку */
+
+.sing {
+    display: flex;
+    
+
+   }
+   .input-sing{
+    width: 360px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+   padding: 0;
+   padding-left: 15px;
+   outline-style: none;
+   
+  
+   }
+
+ .to-sing {
+    position: relative;
+    display: inline-block;
+    margin-top: 43px;
+margin-left: 12px;
+margin-bottom: 47px;
+padding-left: 20px;
+padding-right: 62px;
+
+
+font-weight: 700;
+font-size: 16px;
+line-height:1.87;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+
+}
+
+
+   .icon-send{
+    position: absolute;
+    margin-left: 10px;
+
+   }

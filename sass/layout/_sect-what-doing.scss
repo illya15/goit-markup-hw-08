@@ -1,0 +1,54 @@
+/* чим займаймося what-doing img */
+.list-imag__item {
+    position: relative;
+    /* margin-right:30px; */
+}
+
+
+
+ .position {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    left:0px; 
+    margin: 0;
+    background: rgba(47, 48, 58, 0.8);}
+.text-centr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+    /* background-color: #ffffff; */
+
+
+.list-imag{
+    display: flex;
+    padding: 0px;
+
+
+ & .list-imag__item +.list-imag__item { 
+  margin-left: 30px;
+}
+}
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 0px;
+margin-bottom: 50px;
+color: $title-tekst-color;
+}
+
+
