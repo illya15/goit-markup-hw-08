@@ -10,8 +10,9 @@
 }
 
     .mail-phone { 
-     display: flex; 
-        margin-left: 300px;
+   display: none;
+     //display: flex; 
+      //  margin-left: 300px;
      
      
 & .mail-phone__item:not(:last-child) { 

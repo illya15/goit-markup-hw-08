@@ -1,20 +1,15 @@
  /* переваги */
 
 
-//phone
+
 
 .section{
     padding-top: 60px;
     padding-bottom: 60px;
-
-@media screen and (min-width: 1200px) {
-padding-top: 94px;
-padding-bottom: 94px;
+    @media screen and (min-width:1200px) {
+        padding-bottom: 94px;
+    }
 }
-}  
-
-
-
 
 
 .section-title{
@@ -27,20 +22,27 @@ padding-bottom: 94px;
     
     .preference  {
         display: block;
+        list-style: none;
+
+ @media screen and (min-width:768px) {
+    display: flex;
+   
+   
+ }
+ & .preference__items{
+    @media screen and (min-width:768px) {
+        flex-wrap: wrap;
+        width: 50%;
+     }
+ }
 
 
-        //tablet
-
-        
-
-        @media screen and (min-width: 1200px){
-         display: flex;
-    
         & .preference__items +.preference__items{
+            
             margin-left: 30px;
              /* background-color: tomato;  */
            }
-        }
+    
         & .preference__title {
         margin-top: 0px;
         margin-bottom: 10px;
