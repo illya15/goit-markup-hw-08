@@ -1,12 +1,14 @@
-.main{
+ .main{
    
-    //display: flex;  
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
 }
 
     .main-nav{  
         
-        //display: flex;   
-        //align-items: center;
+        display: flex;   
+        align-items: center;
     }
         
 .site-nav  { 

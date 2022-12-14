@@ -26,13 +26,15 @@
 
  @media screen and (min-width:768px) {
     display: flex;
-   
+   // flex-wrap: wrap;
+    width: calc((100%-2*30px)/2);
    
  }
  & .preference__items{
     @media screen and (min-width:768px) {
-        flex-wrap: wrap;
-        width: 50%;
+        //flex-wrap: wrap;
+       // width: 50%;
+        
      }
  }
 
@@ -40,7 +42,13 @@
         & .preference__items +.preference__items{
             
             margin-left: 30px;
-             /* background-color: tomato;  */
+            @media screen and (max-width:768px) {
+               margin: 0;
+             }
+
+
+
+             
            }
     
         & .preference__title {

@@ -85,6 +85,27 @@ body {
   }
 }
 
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .site-nav {
   display: none;
   /* .site-nav .item + .item { */
@@ -269,21 +290,19 @@ body {
 }
 @media screen and (min-width: 768px) {
   .preference {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
-  }
-}
-@media screen and (min-width: 768px) {
-  .preference .preference__items {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 50%;
+    
+  
   }
 }
 .preference .preference__items + .preference__items {
   margin-left: 30px;
-  /* background-color: tomato;  */
+}
+@media screen and (max-width: 768px) {
+  .preference .preference__items + .preference__items {
+    margin: 0;
+  }
 }
 .preference .preference__title {
   margin-top: 0px;
@@ -1127,7 +1146,6 @@ body {
           justify-content: center;
   margin-left: auto;
   padding: 0;
-  background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
@@ -1158,14 +1176,10 @@ body {
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3c4790;
+  background-color: #FFFFFF;
   z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .menu-container.is-open {
@@ -1177,7 +1191,7 @@ body {
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #fff;
+  color: #212121;
 }
 
 .mobile-menu {
@@ -1205,6 +1219,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 64px;
+  margin-bottom: 40px;
   gap: 20px;
 }
 
@@ -1214,4 +1230,36 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.mobile-contacs-item {
+  margin-left: 20px;
+}
+
+.mobile-contacs-link-tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.mobile-contacs-link-mail {
+  margin-top: 32px;
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobile-social-link {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }/*# sourceMappingURL=main.css.map */
