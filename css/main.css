@@ -284,12 +284,30 @@ body {
   color: #212121;
 }
 
+.preference {
+  display: block;
+}
 @media screen and (min-width: 768px) {
   .preference {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: -15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .preference {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .preference .preference__items {
+    width: calc((100% - 60px) / 2);
   }
 }
 .preference .preference__items + .preference__items {
@@ -508,9 +526,7 @@ body {
 
 /* Постійні слієнти */
 .clients {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
