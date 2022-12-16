@@ -361,6 +361,12 @@ body {
 }
 
 /* чим займаймося what-doing img */
+@media screen and (max-width: 1199px) {
+  .what-doing {
+    display: none;
+  }
+}
+
 .list-imag__item {
   position: relative;
   /* margin-right:30px; */
@@ -526,19 +532,44 @@ body {
 
 /* Постійні слієнти */
 .clients {
-  display: block;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 .clients .clients__item {
   width: 170px;
   height: 92px;
   background-color: #F5F5F5;
-  margin-right: 30px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+}
+@media screen and (min-width: 480px) {
+  .clients .clients__item {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .clients .clients__item {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients .clients__item {
+    margin: 8px;
+  }
 }
 .clients .clients__item:last-child {
   margin-right: 0px;
