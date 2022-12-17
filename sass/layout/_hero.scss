@@ -1,4 +1,20 @@
 .conteiner-hero{
+
+    @media screen and (min-width:768px) {
+        max: width 480px;
+
+        background-image: 
+     linear-gradient(to right,
+    rgba(47, 48, 58, 0.4), 
+     rgba(47, 48, 58, 0.4) ),
+ 
+    url(../imges/Img\ 13hero\ .jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;  
+
+      }
+
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
