@@ -707,6 +707,19 @@ body {
   color: #FFFFFF;
 }
 
+.logo-link-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: #2196F3;
+}
+@media screen and (max-width: 768px) {
+  .logo-link-footer {
+    margin-left: 140px;
+  }
+}
+
 .street {
   margin-top: 20px;
   margin-bottom: 9px;
@@ -715,31 +728,44 @@ body {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+  .street {
+    margin-left: 100px;
+  }
+}
 
 .address .link:hover,
 .address .link:focus {
   color: #2196F3;
 }
 
-.mail-footer .link {
+.mail-footer-link {
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   /* color: rgba(255, 255, 255, 0.6); */
 }
+@media screen and (max-width: 768px) {
+  .mail-footer-link {
+    margin-left: 130px;
+  }
+}
 
-.tel-footer .link {
+.tel-footer-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+@media screen and (max-width: 768px) {
+  .tel-footer-link {
+    margin-left: 140px;
+  }
+}
 
 .footer-conteiner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 /* приєднатися */
@@ -752,6 +778,11 @@ body {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+  .add {
+    margin-left: 140px;
+  }
+}
 
 .add__addition-list {
   display: -webkit-box;
@@ -759,6 +790,11 @@ body {
   display: flex;
   /* margin-bottom: 100px; */
   /* margin-left:  700px;    */
+}
+@media screen and (max-width: 768px) {
+  .add__addition-list {
+    margin-left: 50px;
+  }
 }
 .add__addition-list .icon-add {
   display: -webkit-box;
@@ -789,9 +825,7 @@ body {
 
 /* підпишіться на розсилку */
 .sing {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .input-sing {
@@ -803,6 +837,11 @@ body {
   padding: 0;
   padding-left: 15px;
   outline-style: none;
+}
+@media screen and (max-width: 768px) {
+  .input-sing {
+    width: 100%;
+  }
 }
 
 .to-sing {
@@ -818,6 +857,11 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .to-sing {
+    margin-left: 115px;
+  }
 }
 
 .icon-send {

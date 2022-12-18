@@ -3,6 +3,11 @@
   /* .addition { */
   
   .add {
+   @media screen and (max-width:768px){
+   
+      margin-left: 140px;
+  }
+
     /* margin-right: 868px;  */
    font-weight: 700;
 font-size: 14px;
@@ -13,6 +18,11 @@ color: #FFFFFF
 
 .add__addition-list{
    display: flex;
+
+   @media screen and (max-width:768px){
+      margin-left: 50px;
+  }
+
       /* margin-bottom: 100px; */
     /* margin-left:  700px;    */
 

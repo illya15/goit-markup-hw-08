@@ -2,11 +2,17 @@
 /* підпишіться на розсилку */
 
 .sing {
-    display: flex;
+    display: block;
+  
+  //display: flex;
     
 
    }
    .input-sing{
+
+    @media screen and (max-width:768px){
+      width: 100%;
+  }
     width: 360px;
     height: 50px;
     background-color: #2F303A;
@@ -20,6 +26,9 @@
    }
 
  .to-sing {
+  @media screen and (max-width:768px){
+    margin-left: 115px;
+  }
     position: relative;
     display: inline-block;
     margin-top: 43px;
