@@ -113,10 +113,10 @@
     margin-bottom: 40px;
     gap:20px;
   }
-  .mobile-menu-item{
+  //.mobile-menu-item{
  
    
-  }
+ // }
   .mobile-menu-link{
     font-weight: 500;
     font-size: 40px;
@@ -125,6 +125,11 @@
     
     color: #212121;
   }
+  .mobile-menu-link .link{
+    color: $accent-color; 
+  }
+
+
 .mobile-contacs-item{
   margin-left: 20px;
 }
