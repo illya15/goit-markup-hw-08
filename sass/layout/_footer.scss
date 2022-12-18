@@ -15,7 +15,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .logo-link-footer{
-    @media screen and (max-width:768px){
+    @media screen and (max-width:767px){
         margin-left: 140px;
            }
            font-family: $logo-font;
@@ -29,7 +29,7 @@ color: #FFFFFF;
 
 .street{
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:767px){
 margin-left: 100px;
 
     }
@@ -47,7 +47,7 @@ color: #FFFFFF;
 }
 
  .mail-footer-link{ 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:767px){
         margin-left: 130px;
     }
 
@@ -58,7 +58,7 @@ color: #FFFFFF;
     /* color: rgba(255, 255, 255, 0.6); */
 }
 .tel-footer-link{ 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:767px){
         margin-left: 140px;
     }
 font-size: 14px;
@@ -69,7 +69,13 @@ color: rgba(255, 255, 255, 0.6);
 .footer-conteiner {
     display: block;
 
-  
+    @media screen and (min-width:768px)  {
+        display: flex;
+      
+    }
+    @media screen and  (max-width:1199px) {
+       // display: flex;
+    }
    // display: flex;
     
 }
