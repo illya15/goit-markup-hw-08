@@ -1,19 +1,33 @@
 .conteiner-hero{
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:480px) {
         max: width 480px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
         background-image: 
      linear-gradient(to right,
     rgba(47, 48, 58, 0.4), 
      rgba(47, 48, 58, 0.4) ),
- 
-    url(../imges/Img\ 13hero\ .jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;  
+
+     url(../imges/hero/Header_img_sm1x.png);
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        background-image:    
+        linear-gradient(to right,
+        rgba(47, 48, 58, 0.4), 
+         rgba(47, 48, 58, 0.4) ),
+        url(../imges/hero/Header_img_sm2x.png);  
+    }
+   
+    
 
       }
+
+
+
 
     max-width: 1600px;
     height: 600px;

@@ -275,14 +275,20 @@ body {
   background-position: center;
   background-size: cover;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .conteiner-hero {
     max: width 480px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/Img\ 13hero\ .jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/Img\ 13hero\ .jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/hero/Header_img_sm1x.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/hero/Header_img_sm1x.png);
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .conteiner-hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/hero/Header_img_sm2x.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/hero/Header_img_sm2x.png);
   }
 }
 
@@ -497,6 +503,11 @@ body {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   border: 1px solid #EEEEEE;
+}
+@media screen and (max-width: 767px) {
+  .members .members__item {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .members .members__item {
@@ -1494,4 +1505,10 @@ body {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
