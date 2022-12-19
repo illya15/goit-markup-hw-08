@@ -89,8 +89,8 @@ color: rgba(255, 255, 255, 0.6);
 
     @media screen and (min-width:768px) and (max-width:1199px)  {
       display: flex;
-       flex-wrap: wrap;
-       width:(calc(100%)/2) ;
+       flex-wrap:nowrap;
+             
         
       
     }
@@ -98,14 +98,13 @@ color: rgba(255, 255, 255, 0.6);
         display: flex;
 }
    // display: flex;
-   .footer-tablet{
-    @media screen and (min-width:768px) and (max-width:1199px)  {
-        display: flex;
-    flex-wrap: nowrap;
+  // .footer-tablet{
+    //@media screen and (min-width:768px) and (max-width:1199px)  {
+    //    display: flex;
+   // flex-wrap: nowrap;
 
-   }
+ //  }
 
  
    
-}
 }
