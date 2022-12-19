@@ -4,6 +4,10 @@
     padding-top: 60px; 
     padding-bottom: 60px; 
         background-color:#2F303A;
+
+        //@media screen and  (min-width:1200px) {
+       //  display: flex;
+       // }
 }
 .logo-footer{
        margin-bottom: 20px;
@@ -15,9 +19,15 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .logo-link-footer{
+    
+
     @media screen and (max-width:767px){
         margin-left: 140px;
            }
+
+           @media screen and (max-width:480px){
+            margin-left: 50px;
+               }
            font-family: $logo-font;
            font-weight: 700;
            font-size: 26px;
@@ -32,6 +42,9 @@ color: #FFFFFF;
     @media screen and (max-width:767px){
 margin-left: 100px;
 
+    }
+    @media screen and (max-width:480px){
+        margin-left: 35px;
     }
     margin-top: 20px;
 margin-bottom: 9px;
@@ -50,7 +63,9 @@ color: #FFFFFF;
     @media screen and (max-width:767px){
         margin-left: 130px;
     }
-
+    @media screen and (max-width:480px){
+        margin-left: 50px;
+    }
     margin-bottom: 9px;
     font-size: 14px;
     line-height: 1.71;
@@ -61,6 +76,9 @@ color: #FFFFFF;
     @media screen and (max-width:767px){
         margin-left: 140px;
     }
+    @media screen and (max-width:480px){
+        margin-left: 60px;
+    }
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -70,12 +88,12 @@ color: rgba(255, 255, 255, 0.6);
     display: block;
 
     @media screen and (min-width:768px)  {
-        display: flex;
+       display: flex;
       
     }
-    @media screen and  (max-width:1199px) {
-       // display: flex;
-    }
+   //@media screen and  (min-width:1200px) {
+        //display: flex;
+//}
    // display: flex;
     
 }

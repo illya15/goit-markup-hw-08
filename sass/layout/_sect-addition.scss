@@ -7,7 +7,10 @@
    
       margin-left: 140px;
   }
-
+  @media screen and (max-width:480px){
+   
+   margin-left: 75px;
+}
     /* margin-right: 868px;  */
    font-weight: 700;
 font-size: 14px;
@@ -20,9 +23,12 @@ color: #FFFFFF
    display: flex;
 
    @media screen and (max-width:768px){
-      margin-left: 50px;
+      margin-left: 35px;
   }
-
+  @media screen and (max-width:480px){
+   margin-left: 1px;
+   
+}
       /* margin-bottom: 100px; */
     /* margin-left:  700px;    */
 

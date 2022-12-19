@@ -1,7 +1,9 @@
 /* Постійні слієнти */
 .clients { 
 
-  
+   // @media screen and (max-width:480px){
+     //   display: block;
+  // }
 
     display: flex; 
     flex-wrap: wrap;
@@ -14,6 +16,9 @@
    //align-items: center;
 
 & .clients__item {
+    @media screen and (max-width:480px){
+margin: 10px 70px;
+    }
 
     @media screen and (min-width:480px) {
         width: calc((100% - 60px)/2);

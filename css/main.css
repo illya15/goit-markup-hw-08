@@ -279,14 +279,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/hero/Header_img_sm1x.png);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/hero/Header_img_sm1x.png);
-  }
-}
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
-  .conteiner-hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/hero/Header_img_sm2x.png);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/hero/Header_img_sm2x.png);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/Img\ 13hero\ .jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/Img\ 13hero\ .jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
@@ -309,6 +306,16 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+@media screen and (max-width: 480px) {
+  .hero__title {
+    padding-top: 200px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.5;
+  }
 }
 
 /* переваги */
@@ -634,6 +641,11 @@ body {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
 }
+@media screen and (max-width: 480px) {
+  .clients .clients__item {
+    margin: 10px 70px;
+  }
+}
 @media screen and (min-width: 480px) {
   .clients .clients__item {
     width: calc((100% - 60px) / 2);
@@ -728,6 +740,11 @@ body {
     margin-left: 140px;
   }
 }
+@media screen and (max-width: 480px) {
+  .logo-link-footer {
+    margin-left: 50px;
+  }
+}
 
 .street {
   margin-top: 20px;
@@ -740,6 +757,11 @@ body {
 @media screen and (max-width: 767px) {
   .street {
     margin-left: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .street {
+    margin-left: 35px;
   }
 }
 
@@ -760,6 +782,11 @@ body {
     margin-left: 130px;
   }
 }
+@media screen and (max-width: 480px) {
+  .mail-footer-link {
+    margin-left: 50px;
+  }
+}
 
 .tel-footer-link {
   font-size: 14px;
@@ -770,6 +797,11 @@ body {
 @media screen and (max-width: 767px) {
   .tel-footer-link {
     margin-left: 140px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tel-footer-link {
+    margin-left: 60px;
   }
 }
 
@@ -783,6 +815,7 @@ body {
     display: flex;
   }
 }
+
 /* приєднатися */
 /* .addition { */
 .add {
@@ -798,6 +831,11 @@ body {
     margin-left: 140px;
   }
 }
+@media screen and (max-width: 480px) {
+  .add {
+    margin-left: 75px;
+  }
+}
 
 .add__addition-list {
   display: -webkit-box;
@@ -808,7 +846,12 @@ body {
 }
 @media screen and (max-width: 768px) {
   .add__addition-list {
-    margin-left: 50px;
+    margin-left: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .add__addition-list {
+    margin-left: 1px;
   }
 }
 .add__addition-list .icon-add {
@@ -883,6 +926,11 @@ body {
 @media screen and (max-width: 768px) {
   .to-sing {
     margin-left: 115px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .to-sing {
+    margin-left: 50px;
   }
 }
 
@@ -1460,6 +1508,15 @@ body {
   margin-bottom: 40px;
   gap: 20px;
 }
+@media screen and (max-width: 480px) {
+  .mobile-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .mobile-menu-link .link {
   font-weight: 500;
@@ -1484,6 +1541,11 @@ body {
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (max-width: 480px) {
+  .mobile-contacs-link-tel {
+    font-size: 24px;
+  }
 }
 
 .mobile-contacs-link-mail {
