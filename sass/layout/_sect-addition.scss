@@ -3,11 +3,11 @@
   /* .addition { */
   
   .add {
-   @media screen and (max-width:768px){
+   @media screen and (max-width:767px) and (min-width:480px){
    
       margin-left: 140px;
   }
-  @media screen and (max-width:480px){
+  @media screen and (max-width:479px){
    
    margin-left: 75px;
 }
@@ -22,10 +22,10 @@ color: #FFFFFF
 .add__addition-list{
    display: flex;
 
-   @media screen and (max-width:768px){
+   @media screen and (max-width:767px) and (min-width:480px){
       margin-left: 35px;
   }
-  @media screen and (max-width:480px){
+  @media screen and (max-width:479px){
    margin-left: 1px;
    
 }
