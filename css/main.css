@@ -652,9 +652,9 @@ body {
     margin: 15px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .clients .clients__item {
-    width: calc((100% - 60px) / 2);
+    width: calc((100% - 90px) / 3);
     margin: 15px;
   }
 }
