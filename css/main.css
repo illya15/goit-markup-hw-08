@@ -455,7 +455,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -679,7 +678,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #F5F5F5;
-  border: 1px solid #AFB1B8;
   border-radius: 4px;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -861,6 +859,11 @@ body {
     margin-left: 300px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .add {
+    margin-left: 90px;
+  }
+}
 
 .add__addition-list {
   display: -webkit-box;
@@ -948,6 +951,11 @@ body {
   .input-sing {
     margin-left: 150px;
     width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .input-sing {
+    margin-left: 90px;
   }
 }
 
