@@ -813,8 +813,14 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -845,6 +851,11 @@ body {
     margin-left: 75px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .add {
+    margin-left: 300px;
+  }
+}
 
 .add__addition-list {
   display: -webkit-box;
@@ -861,6 +872,11 @@ body {
 @media screen and (max-width: 479px) {
   .add__addition-list {
     margin-left: 1px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .add__addition-list {
+    margin-left: 200px;
   }
 }
 .add__addition-list .icon-add {
