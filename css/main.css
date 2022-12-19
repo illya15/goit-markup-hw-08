@@ -361,14 +361,20 @@ body {
 @media screen and (min-width: 768px) {
   .preference .preference__items {
     width: calc((100% - 60px) / 2);
+    margin: 15px;
   }
 }
 .preference .preference__items + .preference__items {
   margin-left: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .preference .preference__items + .preference__items {
-    margin: 0;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .preference .preference__items + .preference__items {
+    margin: 10px;
   }
 }
 .preference .preference__title {
@@ -449,7 +455,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -543,7 +549,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  border-bottom: 2px solid #F5F4FA;
 }
 .members .s {
   display: -webkit-box;
@@ -1190,7 +1195,7 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
   -webkit-transition: opacity 500ms, visibility 500ms;
   transition: opacity 500ms, visibility 500ms;
-  padding: 94px 15px;
+  padding: 20px 15px;
   overflow: scroll;
 }
 
@@ -1204,7 +1209,7 @@ body {
   padding: 15px;
   border-radius: 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (mix-width: 768px) {
   .modal {
     position: absolute;
     top: 50%;
@@ -1281,6 +1286,12 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+@media screen and (max-width: 479px) {
+  .title-modal {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 
 .label-modal {
   position: relative;
@@ -1303,6 +1314,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: #757575;
+}
+@media screen and (max-width: 479px) {
+  .label-modal {
+    padding-left: 35px;
+    padding-right: 5px;
+  }
 }
 
 .user-coment-area {
@@ -1329,6 +1346,12 @@ body {
   letter-spacing: 0.01em;
   color: #757575;
 }
+@media screen and (max-width: 479px) {
+  .user-coment {
+    width: 250px;
+    margin-left: 35px;
+  }
+}
 
 .user-coment-area {
   width: 370px;
@@ -1338,6 +1361,11 @@ body {
   border-radius: 4px;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (max-width: 479px) {
+  .user-coment-area {
+    width: 250px;
+  }
 }
 
 .conditions {
@@ -1373,6 +1401,11 @@ body {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (max-width: 479px) {
+  .icon-modal {
+    margin-left: 25px;
+  }
+}
 
 .modal-input {
   width: 370px;
@@ -1380,6 +1413,12 @@ body {
   padding-left: 35px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+@media screen and (max-width: 479px) {
+  .modal-input {
+    width: 250px;
+    height: 40px;
+  }
 }
 .modal-input:focus + .icon-modal {
   fill: #2196F3;

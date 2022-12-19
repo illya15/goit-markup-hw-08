@@ -10,7 +10,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     transition: opacity 500ms, visibility 500ms;
-     padding: 94px 15px;
+     padding: 20px 15px;
      overflow: scroll;
   }
   
@@ -32,7 +32,7 @@
     padding: 15px;
     border-radius: 20px;
     
-    @media screen and (min-width:768px) {
+    @media screen and (mix-width:768px)   {
         position: absolute;
      top: 50%;
     left: 50%;

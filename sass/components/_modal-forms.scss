@@ -8,6 +8,12 @@
     margin-top: 40px;
 }
     .title-modal{ 
+
+        @media screen and (max-width:479px){
+            padding-left:5px;
+            padding-right: 5px;
+          
+         }
         padding-top: 0px;
         padding-left: 40px;
         padding-right: 40px;
@@ -24,7 +30,13 @@ color: #212121;
  
  
 .label-modal{
-    position: relative;
+    @media screen and (max-width:479px){
+        padding-left:35px;
+        padding-right: 5px;
+      
+     }
+
+       position: relative;
     display: flex;
     flex-direction: column;
     align-items:left;
@@ -39,10 +51,16 @@ letter-spacing: 0.01em;
 color: #757575;
 }
    .user-coment-area{
+
+
     width: 448px;
     margin-top: 5px;
    }
    .user-coment {
+    @media screen and (max-width:479px){
+        width: 250px;
+       margin-left: 35px;
+    }
     display: flex;
     flex-direction: column;
     width: 370px;
@@ -58,6 +76,10 @@ color: #757575;
   }
   
   .user-coment-area{
+    @media screen and (max-width:479px){
+        width: 250px;
+      // margin-left: 35px;
+    }
     width: 370px;
     height: 120px;
     resize: none;
@@ -84,6 +106,13 @@ color: #2196F3;
     margin-right: 120px;
   }
   .icon-modal {
+    @media screen and (max-width:479px){
+       
+        margin-left: 25px;
+      
+     }
+
+
     position: absolute;
      top: 50%; 
     left: 12px;
@@ -98,6 +127,12 @@ color: #2196F3;
 }
 
 .modal-input{
+    @media screen and (max-width:479px){
+        width: 250px;
+        height: 40px;
+      
+      
+     }
 
     width: 370px;
    height: 40px;
